@@ -28,10 +28,5 @@ a[k]=temp;
 }
 clock_t end=clock();
 double time_taken=((double)(end-start))/CLOCKS_PER_SEC;
-//printf("Sorted elements are");
-//for(i=0;i<n;i++)
-//{
-//printf("%d\t",a[i]);
-//}
 printf("Time taken is %F ",time_taken);
 }
