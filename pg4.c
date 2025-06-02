@@ -16,7 +16,7 @@ scanf("%d",&w[i][j]);
 printf("Enter the source vertex to start\n");
 scanf("%d",&source);
 for(i=1;i<=n;i++)
-visited[i]-0;
+visited[i]=0;
 visited[source]=1;
 printf("Min Weight selected for spanning tree\n");
 for(i=1;i<n;i++){
